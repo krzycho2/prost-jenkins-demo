@@ -45,7 +45,7 @@
                 <configuration>
                     <appName>jenkins-prost</appName>
                     <processTypes>
-                        <web>java -jar Dserver.port=$PORT target/${project.build.finalName}.jar</web>
+                        <web>java -jar -Dserver.port=$PORT target/${project.build.finalName}.jar</web>
                     </processTypes>
                 </configuration>
 
