@@ -27,5 +27,4 @@ class DemoApplicationTests {
                 .andExpect(status().isOk())
                 .andExpect( content().string("Hello, World"));
     }
-
 }
