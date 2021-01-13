@@ -25,6 +25,6 @@ class DemoApplicationTests {
         this.mockMvc.perform(get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect( content().string("Hello, World"));
+                .andExpect( content().string("cZEŚĆ, World"));
     }
 }
